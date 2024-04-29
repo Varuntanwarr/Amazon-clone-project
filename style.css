@@ -1,0 +1,386 @@
+.navbar {display:flex;
+    height: 60px;
+    background-color:#0f1111;
+    color:white;
+    align-items: center;
+
+}
+img:hover{
+    border:2px solid white;
+}
+.border:hover{
+    border:2.5px solid white;
+}
+
+*{margin:0px;
+font-family:arial;
+border:border-box;
+}
+.nav_logo{
+    
+    height:50px;
+    width:100px;
+}
+  .logo{
+    margin: 10px;
+    padding:2px;
+    background-size: cover;
+    height:50px;
+    width:100px;
+  }  
+ 
+ .panel{
+    height:40px;
+background-color:#222f3d;
+display:flex;
+}
+
+.nav_address{
+    height:50px;
+    width:90px;
+    align-items: center;   
+}
+.icon{
+    display:flex;
+    margin-left:10px;
+}
+
+/** div2**/
+.add_one{
+color:#cccccc;
+font-size: 0.85rem;
+margin-left: 26px;
+margin-top: 8px;
+
+}
+.add_two{
+color:white;
+font-size:1rem;
+margin-left:3px;
+}
+/**box 3**/
+.all{
+    display:flex;
+    align-items: center;
+    width:760px;
+    height:43px;
+    border-radius:2%;
+    
+}
+.option{
+    width:45px;
+    height:45px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    font-size:larger;
+    background-color:#f3f3f3;
+    margin-left:25px;
+}
+.search_bar{
+    width:665px;
+    height:40px;
+    font-size:larger;
+    
+}
+.search_bar:hover{
+    border:4px solid orange;
+}
+.search_icon{
+    height: 44px;
+    width:50px;
+    border-bottom-right-radius:4px;
+    border-top-right-radius:4px;
+    background-color: orange;
+    align-items: center;
+    
+}
+.sign_in{
+    height:50px;
+    width:132px;
+    margin-left: 23px;
+    
+}
+.hello{
+    height:50px;
+    width:132px;
+    margin-left: 23px;
+}
+.account{
+    font-size:0.85rem;
+    font-weight:bold;
+    background-color: black;
+    color:white;
+    border:transparent;
+}
+.ro{
+    height:50px;
+    width:60px;
+    margin-left: 42px;
+}
+.return{
+    font-size:0.8rem;
+    margin-top:10px;
+}
+.order{
+    font-size:0.85rem;
+    font-weight:bold;
+}
+.cart{
+    height:50px;
+    width:70px;
+font-weight: bold;
+display:flex;
+margin-left: 20px;
+}
+.ct{
+    font-size:0.7rem;
+    font-weight:bold;
+    margin-top:30px;
+    margin-right:20px
+}
+.language{
+    height:50px;
+    width:80;
+    
+    display:flex;
+    margin-left: 23px;
+}
+.flag{
+    margin-top:20px;
+}
+.lang{
+    margin-top:20px;
+    height:20px;
+    width:40px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border:transparent;
+    
+}
+.menu{
+    height:30px;
+    width:60px;
+    display:flex;
+    margin-left:10px;
+margin-top:5px;
+color:white;
+align-items:center;
+}
+.menu_al{
+    font-size:20px;
+    font-weight:bold;
+    margin-left:8px;
+    color:white;
+}
+.info{
+    height:40px;
+    width:700px;
+    display:flex;
+    align-items:center;
+    color:white;
+}
+.hero_section{
+    height:350px;
+    background-size:cover;
+    background-image: url(https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg);
+    align-items:flex-end;
+    justify-content:center;
+    display:flex;
+
+}
+.hero_mesg{
+    height:40px;
+    background-color: white;
+    display:flex;
+font-size:0.85;
+justify-content:center;
+align-items:center;
+width:80%;
+
+margin-bottom:25px;
+}
+.shop_section{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:peachpuff;
+}
+.box{
+    border:13px solid peachpuff;
+    height:400px;
+    width:23%;
+    background-color:white;
+
+}
+.box1_img{
+    height:270px;
+    width:300px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-left: 0.85rem;
+    
+
+
+}
+.box p{
+    margin-left: 0.85rem;
+    color:blue;
+}
+.box h2{
+    margin-left:0.85rem;
+    margin-top: 0.85rem;
+}
+.long_panel{
+    
+    background-color: peachpuff;
+    margin-top: 20px;
+}
+.all_images{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:white;
+    width:97%;
+    margin-left: 18px;
+    
+}
+
+
+
+/**.all_images boxes_one{
+    border:2px solid black;
+    margin-top: 10px;
+    height:50px;
+    width:80%;
+}**/
+body{
+    background-color: peachpuff;
+}
+.boxes_one h2{
+margin-top: 20px;
+}
+.boxes_one{
+    height:270px;
+    width:500px;
+
+    
+}
+.img_one
+{
+  margin-left: 18px;  
+}
+.boxes{
+    height:200px;
+    width:150px;
+    
+    margin-top: 49px;
+}
+.form{
+    height:250px;
+    background-color:white;
+   text-align: center;
+   font-size:0.85rem ;
+   border:2px solid white;
+   margin-top:20px;
+}
+.form input{
+    width:250px;
+    height:30px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: rgb(255, 166, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border:orange;
+}
+
+    
+
+footer{
+    margin-top: 15px;
+}
+.panel_one{
+background-color:#37475a;
+color:white;
+height:50px;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size:0.85rem;
+}
+.panel_two{
+    height:350px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    justify-content:space-evenly ;
+    padding:20px;
+    
+}
+ul a{
+    display:block;
+    margin-top: 10px;
+    font-size: 0.90rem;
+}
+
+ul p{
+    margin-top: 50px;
+    font-weight:bold ;
+}
+.panel_three{
+    border-top:0.5px solid white;
+   color:white;
+   background-color: #222f3d;
+   height:80px;
+   justify-content: center;
+   display:flex;
+   align-items:center;
+}
+.logo_two{
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    
+    height:50px;
+    width:40%;
+    margin-top:25px;
+    
+    background-size:cover ;
+}
+.countary{
+    height:50px;
+    background-color: #222f3d;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.panel_four{
+    color:white;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    height:20px;
+     
+}
+.panel_five{
+    color:white;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    display:flex;
+    height:25px;
+    margin-bottom: 10px;
+}
+/**for user**/
+a{
+    text-decoration:none;
+}
